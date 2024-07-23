@@ -1,6 +1,7 @@
 import React from 'react';
 import carMgmt from '../assets/carMgmt.gif';
 import aiSurvey from '../assets/aiSurvey.webp';
+import pong from '../assets/pong.gif'
 import { TbBackground } from 'react-icons/tb';
 
 const Work = () => {
@@ -51,6 +52,27 @@ const Work = () => {
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
                                 <a href="/" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Grid item */}
+                    <div style={{ backgroundImage: `url(${pong})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+
+                        {/* Hover effect */}
+                        <div className='group-hover: opacity-100'>
+                            <span className='text-1xl font-bold text-white tracking-wider'>
+                                Pong AI using NEAT
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://drive.google.com/file/d/1QgQIs5_4pYu1a3AMOVUJnwyXZyWAjVOR/view?usp=sharing" target="_blank">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/ameyZd/NEAT-AI-Pong" target="_blank">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
